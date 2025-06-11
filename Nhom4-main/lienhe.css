@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid gray;
+}
+.header-name{
+    padding-right: 200px;
+    color: #006cb6;
+    font-weight: bold;
+    font-size: 25px;
+}
+.header-menu ul a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+.header-menu ul a:hover{
+    color: red;
+}
+.header-menu ul button{
+    padding: 3px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: purple;
+    font-size: 25px;
+    background-color: rgb(230, 227, 227);
+    border: 1px solid black;
+}
+.header-menu ul button:hover{
+    background-color: rgb(248, 83, 0);
+}
+.banner img{
+    padding: 0px;
+    width: 100%;
+}
+.COT{
+    display: flex;
+}
+.cot1{
+    width: 70%;
+}
+.cot1 h1{
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.cot1 h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 21, 250);
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.cot1 h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(157, 5, 136);
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.cot1-lh div{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    color: rgb(77, 71, 71);
+}
+.cot1-lh div img{
+    
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.cot2 {
+    width: 40%;
+    padding-top: 40px;
+}
+.cot2 div {
+    font-size: 20px;
+    color: #006cb6;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.cot2 p {
+    padding-bottom: 20px;
+    font-size:15px;
+    font-weight: bold;
+}
+.cot2 p a {
+    text-decoration: none;
+    color: black;
+    
+}
+.cot2 p a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    text-shadow: 1px 3px 10px black;
+}
+.LH h4{
+    
+    color: rgb(255, 85, 0);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 360px;
+    padding-bottom: 20px;
+}
+.form-group1{
+    margin: 10px 10px;
+    padding-left: 350px;
+}
+.form-group2{
+    margin: 10px 10px;
+    padding-left: 350px;
+}
+.form-group3{
+    margin: 10px 10px;
+    padding-left: 350px;
+}
+.form-group4{
+    margin: 10px 10px;
+    padding-left: 350px;
+    
+}
+
+.form-control{
+    margin-top: 5px;
+    display: block;
+    padding: 10px 300px;
+    outline: none;
+    box-shadow: 0 0 3px red;
+    border: none;
+    border-radius: 3px;
+    color: orangered;
+}
+.form-control1{
+    margin-top: 5px;
+    display: block;
+    padding: 40px 300px;
+    outline: none;
+    box-shadow: 0 0 3px red;
+    border: none;
+    border-radius: 3px;
+    color: orangered;
+}
+.form-control:focus{
+    box-shadow: 2px 3px 3px rgb(112, 19, 126);
+}
+.form-control1:focus{
+    box-shadow: 2px 3px 3px rgb(112, 19, 126);
+}
+.btn-login{
+    padding: 10px 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 3px ;
+    color: aliceblue;
+}
+.btn-cancel :hover{
+    background-color: aquamarine;
+}
+.GN{
+    padding-left: 360px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+button{
+    color: white;
+    font-weight: bold;
+    background-color: orangered;
+    padding: 10px 20px 10px 20px;
+}
+
+.GN button:hover{
+    background-color: rgb(255, 111, 0);
+}
+footer {
+    padding-top: 40px;
+    padding-left: 70px;
+    background-color: #006cb6;
+    border-top: 4px solid rgb(205, 55, 55);
+}
+.lienhe {
+    display: flex;
+}
+.footer {
+    width: 30%;
+}
+.footer1 {
+    width: 30%;
+    text-align: center;
+}
+.footer2 {
+    width: 30%;
+}
+.font {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.footer p {
+    font-size: 20px;
+    color: aliceblue;
+}
+.footer1 ul li {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer1 ul li a:hover {
+    color: blueviolet;
+}
+.footer2 div img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.imagee {
+    border-radius: 50%;
+}
+.footer3 {
+    text-align: center;
+    padding-top: 70px;
+    
+}

@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid gray;
+}
+.header-name{
+    padding-right: 200px;
+    color: #006cb6;
+    font-weight: bold;
+    font-size: 25px;
+}
+.header-menu ul a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+.header-menu ul a:hover{
+    color: red;
+}
+.header-menu ul button{
+    padding: 3px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: purple;
+    font-size: 25px;
+}
+.header-menu ul button:hover{
+    background-color: rgb(248, 83, 0);
+}
+.banner img {
+    padding: 0;
+    width: 100%;
+}
+.gioithieu {
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+.gioithieu h1 {
+    color: red;
+    justify-content: center;
+    padding: 20px;
+}
+.gioithieu h2 {
+    color: #006cb6;
+    padding: 20px;
+}
+.gioithieu h3 {
+    color: red;
+    padding: 20px;
+}
+.conten {
+    padding-left: 40px;
+    display: flex;
+}
+.conten h1 {
+    color: #006cb6;
+    font-size: 25px;
+    padding: 10px;
+}
+.conten p {
+    font-size: 15px;
+    padding-left: 30px;
+}
+.conten1 {
+    width: 70%;
+    padding-left: 70px;
+    padding-bottom: 70px;
+}
+.conten2 {
+    width: 30%;
+    padding-top: 40px;
+}
+.conten2 div {
+    font-size: 20px;
+    color: #006cb6;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.conten2 p {
+    padding-bottom: 20px;
+    font-size:15px;
+}
+.conten2 p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.conten2 p a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    text-shadow: 1px 3px 10px black;
+}
+footer {
+    padding-top: 40px;
+    padding-left: 70px;
+    background-color: #006cb6;
+    border-top: 4px solid rgb(205, 55, 55);
+}
+.lienhe {
+    display: flex;
+}
+.footer {
+    width: 30%;
+}
+.footer1 {
+    width: 30%;
+    text-align: center;
+}
+.footer2 {
+    width: 30%;
+}
+.font {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.footer p {
+    font-size: 20px;
+    color: aliceblue;
+}
+.footer1 ul li {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer1 ul li a:hover {
+    color: blueviolet;
+}
+.footer2 div img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.imagee {
+    border-radius: 50%;
+}
+.footer3 {
+    text-align: center;
+    padding-top: 70px;
+}
+
